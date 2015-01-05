@@ -3,22 +3,21 @@
 	width: 100%;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	font-weight:300;
-	color:#808284;
+	font-weight: 300;
+	color: #808284;
 }
 
 /* This div contains all the date/time <span> elements. */
 #clock {
-	padding-top: 50px;
+	/*padding-top: 50px;*/
+	padding-top: 25px;
 	margin-bottom: 30px;
 
 	text-align: center;
-
 	height: 70px;
 	width: 100%;
-	font-size: 30px;
-	
 
+	font-size: 30px;
 	position: relative;
 }
 
@@ -50,7 +49,6 @@
 
 /* e.g. 'wednesday' */
 .dayofweek {
-	
 	position: absolute;
 	right: 40px;
 	bottom: 0;

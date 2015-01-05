@@ -28,11 +28,14 @@
 
 			<!-- BEGIN Main Content -->
 			<!-- <?php // require("page-pieces/carousel-sub.php"); ?> -->
-			<?php require("page-pieces/carousel.php"); ?>
+			<?php 
+				$carouselsrc = "carousel-pages/main-pages.php";
+				require("page-pieces/carousel.php"); 
+			?>
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->
-			<?php require("page-pieces/footer-banner.php"); ?>
+			<?php require("page-pieces/footer-simple.php"); ?>
 			<!-- END Footer -->
 		</div>
 	</body>

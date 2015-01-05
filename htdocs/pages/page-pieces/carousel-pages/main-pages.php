@@ -10,3 +10,9 @@
 		include("page-pieces/six-block-menu.php");
 	?>
 </li>
+<li class="container" name="page3">
+	<?php
+		$carouselpage = "../json/main-page/menu_item_page3.json";
+		include("page-pieces/six-block-menu.php");
+	?>
+</li>
