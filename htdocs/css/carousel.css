@@ -44,7 +44,7 @@
 }
 
 .container {
-	width: 1750px;
+	width: 100%;
 	/*height: 1835px;*/
 	display: inline-block;
 	float: left;
@@ -58,7 +58,7 @@
 /* END Content List */
 
 .background {
-	width: 1750px;
+	width: 100%;
 	/*height: 1000px;*/
 	height: 680px;
 	margin: 0 auto;
@@ -68,7 +68,7 @@
 }
 
 #wrapper {
-	width:1750px;
+	width: 100%;
 	/*height:160px;*/
 
 	margin: 0 auto;
@@ -78,7 +78,7 @@
 }
 
 #scroller {
-	width: 5250px;
+	width: 300%;
 	height: 100%;
 	float: left;
 	padding: 0;
@@ -96,14 +96,14 @@
 	text-align:left;
 }
 
-#scroller > li {
+#scroller > ul > li {
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-o-box-sizing:border-box;
 	box-sizing:border-box;
 	display: block; 
 	float: left;
-	width: 50%; 
+	width: 33.3%; 
 	height: 30%;
 	min-height: 300px;
 }
