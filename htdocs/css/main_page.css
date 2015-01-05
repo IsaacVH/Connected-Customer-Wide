@@ -1,0 +1,107 @@
+*{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	/*background-color:red;*/
+	overflow:hidden;
+}
+
+/* Only works on Chrome and Safari */
+body::-webkit-scrollbar {
+	display: none;
+}
+
+#home {
+	overflow: hidden;
+	width: 100%;
+	height: 1920px;
+	margin: 0 auto;
+	position: relative;
+
+	/* background: -webkit-linear-gradient(#ddd, #fff, #ddd);*/ /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#ddd, #fff, #ddd); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#ddd, #fff, #ddd); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#ddd, #fff, #ddd); /* Standard syntax */
+}
+
+/* This is the "How can we help you?" title */
+
+#home h1 {
+	font-size: 60px;
+	color: #e02826;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+.headBox h1 {
+		font-family:helvetica;
+		font-weight:900;
+		font-size: 40px !important; 
+		color: #e02826;
+		text-align: center;
+		
+}
+
+.headBox {
+	width:400px;
+	padding:0px 20px 0px 20px;
+	background-color:white;
+	border-style:solid;
+	border-width:10px;
+	border-color:#D1D2D4;
+	margin:0 auto;
+	margin-top:40px;
+	margin-bottom:;
+}
+
+.headBox1 {
+	width:500px;
+	padding:0px 20px 0px 20px;
+	background-color:white;
+	border-style:solid;
+	border-width:10px;
+	border-color:#D1D2D4;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+.headBox1 h1 {
+		font-family:helvetica;
+		font-weight:900;
+		font-size: 40px !important; 
+		color: #198A3E;
+		text-align: center;
+		
+}
+
+.headBox2 h1 {
+		font-family:helvetica;
+		font-weight:900;
+		font-size: 30px !important; 
+		color: #198A3E;
+		text-align: center;
+}
+
+.headBox2 {
+	width:500px;
+	padding:0px 20px 0px 20px;
+	background-color:white;
+	border-style:solid;
+	border-width:10px;
+	border-color:#D1D2D4;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+.body{
+	margin-top:0px;
+}

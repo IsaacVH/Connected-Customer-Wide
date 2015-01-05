@@ -1,0 +1,146 @@
+#footer {
+	z-index:3;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+.menu-bar {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0;
+	background-color: #e02826;
+}
+
+.menu-bar .menu-bar-wrapper {
+	height: 100px;
+	text-align: center;
+}
+
+.menu-bar #placeholder {
+	height: 100%;
+	width: 200px;
+	margin: 0 0px;
+	float: left;
+	padding-top:0px;
+	background-color:#b71f28;
+}
+
+.menu-bar #placeholder:hover{
+	background-color:#ee3d3b;
+}
+
+.menu-bar #placeholder1 {
+	height: 100%;
+	width: 200px;
+	margin: 0px 0px 0px 10px;
+	float: left;
+	padding-top:0px;
+	background-color:#b71f28;
+}
+
+.fa{
+	font-size:50px;
+}
+
+.menu-bar #placeholder1:hover{
+	background-color:#ee3d3b;
+}
+
+.back {
+	width:100%;
+	font-family:helvetica;
+	font-weight:900;
+	color:white;
+	margin:0 auto;
+
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	
+}
+
+.menu-bar #title {
+	height: 100%;
+
+	font-size: 52px;
+	font-weight: 900;
+
+	color: white;
+	display: inline-block;
+
+	margin: 0 auto;
+}
+
+.menu-bar .menu-button {
+	float: right;
+
+	background-color: #b71f28;
+
+	height: 100%;
+	width: 120px;
+}
+
+.menu-bar .menu-button:hover {
+	background-color: #ee3d3b;
+	cursor: pointer;
+}
+
+.menu-bar .menu-button.darker {
+	background-color: #ee3d3b;
+}
+
+.white-line-container {
+	display: inline-block;
+	width: 80px;
+
+	margin: 0 auto;
+
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.white-line-container .white-line {
+	height: 6px; 
+	width: 100%;
+	background-color: white;
+	margin: 6px 0;
+}
+
+.nav-dropdown {
+	background-color: #ee3d3b;
+
+	width: 100%;
+	height: 0px;
+
+	padding: 5px 0;
+	display: none;
+}
+
+.nav-dropdown ul {
+	margin: 0 auto;
+
+	padding-left: 10%;
+	padding-right: 0;
+}
+
+.nav-dropdown ul li {
+	list-style: none;
+	float: left;
+
+	color: white;
+	width: 26%;
+	margin: 2px 1%;
+	padding: 8px 1%;
+}
+
+.nav-dropdown ul li:hover {
+	background-color: #b71f28;
+	cursor: pointer;
+}
