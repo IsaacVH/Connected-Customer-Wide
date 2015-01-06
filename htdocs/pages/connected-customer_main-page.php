@@ -7,10 +7,36 @@
 			#title{
 				font-family:helvetica;
 				font-weight:900;
-				font-size: 60px !important; 
+				font-size: 40px !important; 
 				color: #198A3E;
 				text-align: center;
+				width:600px;
+				padding:30px;
+				margin:0 auto;
+				background-color:red;
 			}
+
+			#square1{
+				width:80px;
+				height:80px;
+				background-color:red;
+				position:relative;
+				float:left;
+			}
+
+			#square2{
+				width:80px;
+				height:80px;
+				background-color:red;
+				position:relative;
+				float:right;
+			}
+
+			.titHow{
+				width:880px;
+				margin:0 auto;
+			}
+			
 		</style>
 	</head>
 	<body>
@@ -23,7 +49,12 @@
 
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
+
+			<div class="titHow">
+			<!-- <div id="square1"></div> -->
 			<h1 id="title">HOW CAN WE HELP YOU?</h1>
+			<!-- <div id="square2"></div> -->
+			</div>
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->

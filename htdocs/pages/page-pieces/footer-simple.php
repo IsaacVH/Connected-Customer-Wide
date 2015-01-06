@@ -15,7 +15,7 @@
 		<div class="menu-bar-wrapper">
 			<a href="#" onclick="backClicked()"><div id="placeholder"><div class="back">< BACK</div></div></a>
 			<a href="#" onclick="enter()"><div id="placeholder1"><div class="back"><i class="fa fa-university"></i></div></div></a>
-			<h1 id="title"></h1>
+			
 			<div class="menu-button" onclick="menu_button()">
 				<span class="white-line-container">
 					<div class="white-line"></div>

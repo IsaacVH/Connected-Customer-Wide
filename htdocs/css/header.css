@@ -4,21 +4,24 @@
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	color: #808284;
+	color: #e02826;
 }
 
 /* This div contains all the date/time <span> elements. */
 #clock {
 	/*padding-top: 50px;*/
-	padding-top: 25px;
-	margin-bottom: 30px;
+
+	margin-bottom: 50px;
 
 	text-align: center;
-	height: 70px;
+	height: 100px;
 	width: 100%;
 
 	font-size: 30px;
 	position: relative;
+
+	margin:0 auto;
+	
 }
 
 /* mm/dd/yy */
@@ -26,15 +29,17 @@
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	color:#808284;
+	color:#e02826;
 
-	padding-bottom: 7px;
-	padding-left: 150px;
+	padding-bottom: 32px;
+	padding-left: 600px;
 }
 
 /* 00:00 am */
 .time {
 	font-size: 60px;
+	position:relative;
+	top:10px;
 }
 
 /* Just in case we want the colon to blink */
@@ -52,9 +57,45 @@
 	position: absolute;
 	right: 40px;
 	bottom: 0;
+	padding-bottom: 32px;
+	padding-right: 400px;
+}
 
-	padding-bottom: 7px;
-	padding-right: 70px;
+
+.menu-button {
+	position:relative;
+	float: left;
+	height:100px;
+	width: 120px;
+
+}
+
+.menu-button:hover {
+	background-color: #ee3d3b;
+	cursor: pointer;
+}
+.menu-button.darker {
+	background-color: #ee3d3b;
+}
+
+.white-line-container {
+	display: inline-block;
+	width: 80px;
+
+	margin: 0 auto;
+
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.white-line-container .white-line {
+	height: 6px; 
+	width: 100%;
+	background-color: #e02826;
+	margin: 6px 0;
 }
 
 .separator {
