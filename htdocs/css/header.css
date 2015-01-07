@@ -26,7 +26,6 @@ a {
 #clock {
 /*padding-top: 50px;*/
 	position: relative;
-	margin-bottom: 50px;
 	text-align: center;
 	height: 100px;
 	width: 100%;
@@ -48,8 +47,8 @@ a {
 	font-size: 60px;
 	width: 200px;
 	height: 90px;
-	position: static;
-	top: 10px;
+	position: fixed;
+	top: 8px;
 	left: calc(50% - 100px);
 }
 
