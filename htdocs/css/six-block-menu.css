@@ -102,6 +102,7 @@
 	position: relative;
 	height: 180px;
 	width: 430px;
+
 }
 
 .image-left .absolute-container {
@@ -118,7 +119,7 @@
 .image-left .option-image {
 	height: 100px;
 	display: inline-block;
-	position: relative;
+	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 }
