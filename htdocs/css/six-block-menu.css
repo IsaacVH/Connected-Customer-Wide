@@ -7,6 +7,7 @@
 	border: solid 2px transparent;
 	border-radius-bottom-left: 6px;
 	border-radius-bottom-left: 6px;
+	box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
 }
 
 /* 	If an Element has a 'left' class, that means
@@ -45,6 +46,7 @@
 	min-height: 300px;
 
 	text-align: center;
+
 }
 
 /* This class is for <li> elements that will have
@@ -157,6 +159,7 @@
 	color: #ee3d3b;
 	margin-bottom: 8px;
 	text-align: left;
+	width:260px;
 }
 
 .option-content {

@@ -16,7 +16,9 @@
 				background-color:white;
 				position:relative;
 				top:30px;
+				box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
 			}
+
 			.titHow{
 				width:880px;
 				margin:0 auto;
