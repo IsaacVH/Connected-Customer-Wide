@@ -5,10 +5,12 @@ function menu_button() {
 		nvdrop.removeClass("show");
 		$(".menu .menu-button").removeClass("darker");
 		$(".menu-button .white-line").css("background-color", "#e02826");
+		$("#coverall").css("display", "none");
 	} else {
 		nvdrop.addClass("show");
 		$(".menu .menu-button").addClass("darker");
 		$(".menu-button .white-line").css("background-color", "white");
+		$("#coverall").css("display", "block");
 	}
 }
 
