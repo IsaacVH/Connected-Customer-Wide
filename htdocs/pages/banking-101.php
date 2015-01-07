@@ -15,14 +15,17 @@
 
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
-			<div class="headBox">
-				<h1 id="title">BANKING 101 FOR DUMMIES</h1>
-			</div>
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
-			<div class="body">
-				<?php require("page-pieces/carousel-sub-Page.php"); ?>
+			<div id="fractal">
+				<div class="headBox">
+					<h1 id="title">BANKING 101 FOR DUMMIES</h1>
+				</div>
+				<?php 
+					$carouselsrc = "carousel-pages/banking-101-pages.php";
+					require("page-pieces/carousel.php"); 
+				?>
 			</div>
 			<!-- END Main Content -->
 

@@ -50,7 +50,7 @@
 		<div id="wrapper">
 			<div id="scroller">
 				<ul class="container-list">
-					<?php require("carousel-pages/main-pages.php"); ?>
+					<?php require($carouselsrc); ?>
 				</ul>
 			</div>
 		</div>
