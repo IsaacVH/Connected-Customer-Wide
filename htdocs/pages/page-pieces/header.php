@@ -1,6 +1,17 @@
 <script src="../js/header.js" type="text/javascript"></script>
 <script> $(function() { set_clock(); setInterval(function(){set_clock();}, 1000); }); </script>
 <link rel="stylesheet" href="../css/header.css">
+<script>
+	function backClicked() {
+		history.go(-1);
+	}
+
+	function enter() {
+		document.location.href=home;
+	}
+	var home = "connected-customer_main-page.php";
+</script>
+
 <div id="header">
 	
 	<div class="menu-button" onclick="menu_button()">
