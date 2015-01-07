@@ -25,9 +25,7 @@ a {
 /* This div contains all the date/time <span> elements. */
 #clock {
 /*padding-top: 50px;*/
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: relative;
 	margin-bottom: 50px;
 	text-align: center;
 	height: 100px;
@@ -50,7 +48,7 @@ a {
 	font-size: 60px;
 	width: 200px;
 	height: 90px;
-	position: absolute;
+	position: static;
 	top: 10px;
 	left: calc(50% - 100px);
 }
@@ -157,8 +155,9 @@ a {
 	display: inline-block;
 	width: 80px;
 	margin: 0 auto;
-	position: relative;
-	top: calc(50% - 21px);
+	position: absolute;
+	top: 28px;
+	left: 20px;
 }
 
 .menu-button .white-line-container .white-line {
