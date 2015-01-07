@@ -67,13 +67,9 @@
 	float: left;
 	height:100px;
 	width: 120px;
-
 }
 
-.menu-button:hover {
-	background-color: #ee3d3b;
-	cursor: pointer;
-}
+
 .menu-button.darker {
 	background-color: #ee3d3b;
 }
@@ -98,9 +94,9 @@
 	margin: 6px 0;
 }
 
-.separator {
-	width: 100%;
-	height: 4px;
-
-	background-color: #bbb;
+.h-button{
+	position:absolute;
+	margin-top:20px;
+	margin-right:20px;
 }
+

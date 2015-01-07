@@ -19,6 +19,8 @@
 			<span id="am_pm">am</span>
 		</span>
 		<span class="dayofweek"></span>
+		
+		<a href="#" onclick="enter()"><div class="h-button"><i class="fa fa-university"></i></div></a>
 	</div>
 
 </div>

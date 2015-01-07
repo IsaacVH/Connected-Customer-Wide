@@ -66,7 +66,7 @@
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->
-			<?php require("page-pieces/footer-simple.php"); ?>
+			
 			<!-- END Footer -->
 		</div>
 	</body>
