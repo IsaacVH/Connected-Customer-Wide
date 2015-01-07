@@ -105,3 +105,8 @@ body::-webkit-scrollbar {
 .body{
 	margin-top:0px;
 }
+
+#fractal{
+	width:100%;
+	background-image: url('/htdocs/assets/fractal-background.png');
+}

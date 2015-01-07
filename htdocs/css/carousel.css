@@ -63,8 +63,7 @@
 	height: 680px;
 	margin: 0 auto;
 	display: block;
-	background-image: url('/htdocs/assets/fractal-background.png');
-	
+	/*background-image: url('/htdocs/assets/fractal-background.png');*/
 }
 
 #wrapper {

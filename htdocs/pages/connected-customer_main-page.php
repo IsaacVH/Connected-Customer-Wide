@@ -15,7 +15,6 @@
 				margin:0 auto;
 				background-color:red;
 			}
-
 			#square1{
 				width:80px;
 				height:80px;
@@ -23,7 +22,6 @@
 				position:relative;
 				float:left;
 			}
-
 			#square2{
 				width:80px;
 				height:80px;
@@ -31,7 +29,6 @@
 				position:relative;
 				float:right;
 			}
-
 			.titHow{
 				width:880px;
 				margin:0 auto;
@@ -50,19 +47,24 @@
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
 
-			<div class="titHow">
-			<!-- <div id="square1"></div> -->
-			<h1 id="title">HOW CAN WE HELP YOU?</h1>
-			<!-- <div id="square2"></div> -->
-			</div>
+			
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
 			<!-- <?php // require("page-pieces/carousel-sub.php"); ?> -->
+			<div id="fractal">
+
+				<div class="titHow">
+				<!-- <div id="square1"></div> -->
+					<h1 id="title">HOW CAN WE HELP YOU?</h1>
+					<!-- <div id="square2"></div> -->
+				</div>
+
 			<?php 
 				$carouselsrc = "carousel-pages/main-pages.php";
 				require("page-pieces/carousel.php"); 
 			?>
+			</div>
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->
