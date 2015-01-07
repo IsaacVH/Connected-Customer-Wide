@@ -60,12 +60,8 @@
 			 		<div class="image-container">
 						<img class="option-image" src=<?php echo $ival['image'];?> />
 					</div>
-					<div class="option-text-container">
-						<div class="option-text-wrapper">
-							<h3 class="option-title"><?php echo $ival['title'];?></h3>
-							<p class="option-content"><?php echo $ival['body'];?></p>
-						</div>
-					</div>
+					<h3 class="option-title"><?php echo $ival['title'];?></h3>
+					<p class="option-content"><?php echo $ival['body'];?></p>
 				</div>
 			</div>
 		</li>

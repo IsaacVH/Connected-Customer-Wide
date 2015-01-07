@@ -100,8 +100,8 @@
 
 .image-left .li-container {
 	position: relative;
-	height: 180px;
-	width: 430px;
+	height: 220px;
+	width: 400px;
 
 }
 
@@ -147,21 +147,26 @@
 /* These define the font and box size of the
    text and images in the menu items. */
 .option-title {
+	position:absolute;
+	top:0;
+	margin-left:10px;
 	font-size: 20px;
-	font-weight: bold;
-
+	font-weight: 900;
 	color: #ee3d3b;
 	margin-bottom: 8px;
-
 	text-align: left;
 }
 
 .option-content {
-	font-weight: bold;
-	font-size: 15px;
 
+	position:absolute;
+	top:120px;
+	margin-left:10px;
+	font-weight:bold;
+	font-style:italic;
+	font-size: 15px;
 	margin-top: 8px;
-	color:black;
+	color:#6d6e70;
 	text-align: left;
 }
 
