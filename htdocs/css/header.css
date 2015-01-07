@@ -1,3 +1,7 @@
+a {
+	text-decoration: none;
+}
+
 /* This is the header element, all things near the top should be contained here */
 #header {
 	width: 100%;
@@ -6,6 +10,17 @@
 	font-weight: 300;
 	color: #e02826;
 }
+
+#coverall {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	z-index: 1;
+}
+
 /* This div contains all the date/time <span> elements. */
 #clock {
 /*padding-top: 50px;*/
@@ -71,7 +86,7 @@
 	background-color: #ee3d3b;
 	height: 100%;
 	padding-top: 100px;
-	z-index: 1;
+	z-index: 2;
 }
 .menu .nav-dropdown {
 	width: 0;
@@ -105,7 +120,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 2;
+	z-index: 3;
 }
 .menu-button:hover {
 	/*background-color: #ee3d3b;*/
