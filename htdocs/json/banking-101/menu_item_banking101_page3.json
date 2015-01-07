@@ -1,17 +1,3 @@
 { 
-	"3" : {
-		"type"	:"image-left",
-		"title"	:"PRACTICAL MONEY SKILLS", 
-		"body"	:"See how games and stimulations can help you learn about spending, saving, debt reduction and much more.", 
-		"image"	:"/htdocs/assets/moneySkills-o.png",
-		"link"	:"error-404.html"
-	},
-
-	"4" : {
-		"type"	:"image-left",
-		"title"	:"CONSOLIDATE YOUR DEBT", 
-		"body"	:"Consolidate your debt with our banks personal loan or line of credit.", 
-		"image"	:"/htdocs/assets/consolidate-o.png",
-		"link"	:"error-404.html"
-	}
+	
 }
