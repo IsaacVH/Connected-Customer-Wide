@@ -24,13 +24,12 @@ a {
 /* This div contains all the date/time <span> elements. */
 #clock {
 /*padding-top: 50px;*/
+	position: absolute;
 	margin-bottom: 50px;
 	text-align: center;
 	height: 100px;
 	width: 100%;
 	font-size: 30px;
-	position: relative;
-	margin:0 auto;
 }
 
 /* mm/dd/yy */
@@ -74,10 +73,10 @@ a {
 
 #clock .h-button {
 	position:absolute;
-	font-size:50px;
-	color:#e02826;
-	top:20px;
-	right: calc(5% - 10px);
+	top: 20px;
+	right: 15px;
+	font-size: 50px;
+	color :#e02826;
 }
 
 #clock .separator {
@@ -94,6 +93,7 @@ a {
 	height: 100%;
 	padding-top: 100px;
 	z-index: 2;
+	background-color: blue;
 }
 
 .menu .nav-dropdown {
@@ -105,6 +105,7 @@ a {
 	-webkit-transition: width 0.3s ease-out;
 	-moz-transition: width 0.3s ease-out;
 	transition: width 0.3s ease-out;
+	background-color: gray;
 }
 
 .menu .nav-dropdown.show {
