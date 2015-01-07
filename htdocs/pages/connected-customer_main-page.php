@@ -10,8 +10,8 @@
 				font-size: 40px !important; 
 				color: #198A3E;
 				text-align: center;
-				width:600px;
-				padding:30px;
+				width:580px;
+				padding:20px;
 				margin:0 auto;
 				background-color:white;
 				position:relative;
