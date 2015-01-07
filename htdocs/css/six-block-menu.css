@@ -120,8 +120,9 @@
 	height: 100px;
 	display: inline-block;
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	top:5px;
+	right:10px;
+	
 }
 
 .image-left .option-text-container {
@@ -131,7 +132,7 @@
 	display: inline-block;
 	position: absolute;
 	top: 0px;
-	right: 0px;
+	right: 100px;
 }
 
 .image-left .option-text-wrapper {
