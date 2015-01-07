@@ -16,6 +16,7 @@
 			<a href="#" onclick="backClicked()"><div id="placeholder"><div class="back">< BACK</div></div></a>
 			<a href="#" onclick="enter()"><div id="placeholder1"><div class="back"><i class="fa fa-university"></i></div></div></a>
 			
+			<!--
 			<div class="menu-button" onclick="menu_button()">
 				<span class="white-line-container">
 					<div class="white-line"></div>
@@ -23,7 +24,9 @@
 					<div class="white-line"></div>
 				</span>
 			</div>
+			-->
 		</div>
+		<!--
 		<div class="nav-dropdown">
 			<ul>
 				<li>TRANSACTION&nbsp</li>
@@ -40,5 +43,6 @@
 				<li>FUN FACT&nbsp</li>
 			</ul>
 		</div>
+		-->
 	</div>
 </div>

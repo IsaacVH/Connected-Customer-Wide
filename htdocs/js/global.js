@@ -1,16 +1,14 @@
 // Drop-down menu function
 function menu_button() {
 	var nvdrop = $(".nav-dropdown");
-
-	if(nvdrop.css("display") == "block"){
-		$(".menu-button").removeClass("darker");
-		nvdrop.animate({height: "0px"}, 200, function(){
-			nvdrop.css("display", "none");
-		});
+	if(nvdrop.hasClass("show")){
+		nvdrop.removeClass("show");
+		$(".menu .menu-button").removeClass("darker");
+		$(".menu-button .white-line").css("background-color", "#e02826");
 	} else {
-		$(".menu-button").addClass("darker");
-		nvdrop.css("display", "block");
-		nvdrop.animate({height: "155px"}, 200);
+		nvdrop.addClass("show");
+		$(".menu .menu-button").addClass("darker");
+		$(".menu-button .white-line").css("background-color", "white");
 	}
 }
 
