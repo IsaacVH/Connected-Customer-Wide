@@ -40,6 +40,9 @@
 /* The am/pm text is smaller than the clock numbers. */
 #clock #am_pm {
 	font-size: 30px;
+	position:absolute;
+	top:27px;
+	margin-left:10px;
 }
 /* e.g. 'wednesday' */
 #clock .dayofweek {

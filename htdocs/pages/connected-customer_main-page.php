@@ -13,21 +13,9 @@
 				width:600px;
 				padding:30px;
 				margin:0 auto;
-				background-color:red;
-			}
-			#square1{
-				width:80px;
-				height:80px;
-				background-color:red;
+				background-color:white;
 				position:relative;
-				float:left;
-			}
-			#square2{
-				width:80px;
-				height:80px;
-				background-color:red;
-				position:relative;
-				float:right;
+				top:30px;
 			}
 			.titHow{
 				width:880px;
