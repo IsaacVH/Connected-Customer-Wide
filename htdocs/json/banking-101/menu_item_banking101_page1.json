@@ -29,5 +29,21 @@
 		"body"	:"Find out which offers and programs best meets your business needs.", 
 		"image"	:"/htdocs/assets/smallLoan-o.png",
 		"link"	:"error-404.html"
+	},
+
+	"5" : {
+		"type"	:"image-left",
+		"title"	:"FUNDAMENTAL BASICS ABOUT CHECKS", 
+		"body"	:"Learn anything from filling out a check properly to learning the types that exist.", 
+		"image"	:"/htdocs/assets/check-o.png",
+		"link"	:"error-404.html"
+	}, 
+
+	"6" : {
+		"type"	:"image-left",
+		"title"	:"ECONOMIC NEWS", 
+		"body"	:"Stay on top of trending stories and articles.", 
+		"image"	:"/htdocs/assets/economicNews-o.png",
+		"link"	:"error-404.html"
 	}
 }
