@@ -94,6 +94,7 @@ a {
 	padding-top: 100px;
 	z-index: 2;
 	background-color: blue;
+	width: 0;
 }
 
 .menu .nav-dropdown {
@@ -154,10 +155,7 @@ a {
 	width: 80px;
 	margin: 0 auto;
 	position: relative;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	top: calc(50% - 21px);
 }
 
 .menu-button .white-line-container .white-line {
