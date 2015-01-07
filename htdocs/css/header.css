@@ -5,6 +5,7 @@ a {
 /* This is the header element, all things near the top should be contained here */
 #header {
 	width: 100%;
+	height: 100px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
@@ -48,6 +49,7 @@ a {
 #clock .time {
 	font-size: 60px;
 	width: 200px;
+	height: 90px;
 	position: absolute;
 	top: 10px;
 	left: calc(50% - 100px);
