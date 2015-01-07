@@ -3,13 +3,13 @@ function menu_button() {
 	var nvdrop = $(".nav-dropdown");
 	if(nvdrop.hasClass("show")){
 		nvdrop.removeClass("show");
-		$(".menu").css("width", "0");
+		$(".menu").removeClass("show");
 		$(".menu .menu-button").removeClass("darker");
 		$(".menu-button .white-line").css("background-color", "#e02826");
 		$("#coverall").css("display", "none");
 	} else {
 		nvdrop.addClass("show");
-		$(".menu").css("width", "auto");
+		$(".menu").addClass("show");
 		$(".menu .menu-button").addClass("darker");
 		$(".menu-button .white-line").css("background-color", "white");
 		$("#coverall").css("display", "block");
