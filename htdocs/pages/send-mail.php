@@ -8,6 +8,20 @@
 		<link rel="stylesheet" type="text/css" href="../css/interesting-joking.css" />
 		<style>
 
+		#title{
+				font-family:helvetica;
+				font-weight:900;
+				font-size: 40px !important; 
+				color: #198A3E;
+				text-align: center;
+				width:580px;
+				padding:20px;
+				margin:0 auto;
+				background-color:white;
+				position:relative;
+				top:30px;
+				box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
+			}
 			.clicked{
 				background-color:rgba(0,0,0, .7);
 				height:100%;
@@ -67,37 +81,17 @@
 				text-align: center;
 			}
 
-			.top-stuff{
-				position:relative;
-				height:200px;
-				display:inline-block;
-				text-align:center;
-				margin:0 auto;
-				width:100%;
-				padding-top:120px;
-				padding-bottom:50px;
-			}
-			.top-holding{
-				display:inline-block;
-				margin:0 auto;
-				position:relative;
-				width:auto;
-			}
-			.top-holding div{
-				float:left;
-				margin:0 40px;
-
-			}
 			.content-button{
-				
-				margin:0 auto;
-				width:400px;
+				position:absolute;
+				width:200px;
 				color:white;
-				background-color:#FF3333;
-				padding:20px 0;
-				font-size:60px;
+				background-color:white;
+				color:#FF3333;
+				padding:40px 0;
+				font-size:30px;
 				font-weight:900;
 				cursor:pointer;
+				box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
 			}
 
 			.content-button:hover{
@@ -283,18 +277,15 @@
 
 		<div id="home" data-role="page">
 			<?php require("page-pieces/header.php"); ?>
-			<div class="headBox1">
+
+			<div id="fractal">
+			
 				<h1 id="title">Enter Recipients:</h1>
-			</div>
 
-			<div class="top-stuff">
-				<div class="top-holding">
-					<div class="pig-left"><img src="../assets/email-sender.png"></div>
-					<div class="content-button" onclick="preview()">Tap & Read</div>
-					<div class="pig-right"><img src="../assets/email-sender2.png"></div>
-				</div>
-			</div>
-
+<!-- <div class="pig-left"><img src="../assets/email-sender.png"></div> -->
+					<div class="content-button" onclick="preview()">Tap &<br>Read</div>
+					<!-- <div class="pig-right"><img src="../assets/email-sender2.png"></div> -->
+			
 			<div id="email-wrapper">
 				<div id="add-email">
 					<div class="small-wrapper"><input onclick="keepFocus(this)" class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
@@ -303,15 +294,17 @@
 				</div>
 
 				<!-- Adding new comments -->
-				<?php include("page-pieces/keyboard.php"); ?>
+				<!-- <?php include("page-pieces/keyboard.php"); ?> -->
 
 				<div id="send-mail" onclick="sendMailWrapper()">Send Mail</div>
 				<div id="res-wrapper" style="display: none;" onclick="loadImageFileAsURL()">
 					<div id="response">...response</div>
 					<div id="status">...</div>
 				</div>
+
+
 			</div>
-			<?php require("page-pieces/footer-simple.php"); ?>
+			</div>
 		</div>
 
 		<div class="clicked" onclick="previewClose()">
