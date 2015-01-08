@@ -45,11 +45,11 @@ a {
 /* 00:00 am */
 #clock .time {
 	font-size: 60px;
+	display: inline-block;
+	position: relative;
 	width: 200px;
-	height: 90px;
-	position: fixed;
-	top: 8px;
-	left: calc(50% - 100px);
+	height: 80px;
+	margin-top: 12px;
 }
 
 /* Just in case we want the colon to blink */
