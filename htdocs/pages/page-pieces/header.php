@@ -47,4 +47,4 @@
 
 <div id="coverall" onclick="menu_button()"></div>
 
-<div class="button-pull-up" onclick="show_related()"><i class="fa fa-arrow-up"></i></div>
+<div class="button-pull-up" onclick="show_related()"><i class="fa fa-arrow-up"></i> Related Content</div>

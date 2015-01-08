@@ -193,14 +193,20 @@ a {
 	position: absolute;
 	bottom: 0;
 	right: 200px;
+	color:white;
 
 	background-color: #e02826;
 	height: 30px;
-	width: 100px;
+	width: 200px;
 	padding-top: 10px;
 	text-align: center;
 	border-top-right-radius: 4px;
 	border-top-left-radius: 4px;
+	font-family:arial;
+	font-size:15px;
+	font-weight:900;
+	font-style
+
 
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
