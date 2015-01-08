@@ -8,11 +8,12 @@
 
 
 .display-area{
-	width:800px;
-	height:700px;
+	width:700px;
+	height:600px;
+	position:relative;
 	border-radius:8px;
 	background-color:white;
-	border:solid 2px #9ad6ec;
+	box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
 	margin:90px auto 0px auto;
 }
 
@@ -21,34 +22,36 @@
 	display:block;
 	font-family:helvetica;
 	font-weight:900;
-	font-size:70px;
-	margin:90px auto 0px auto;
+	font-size:30px;
+	color:#6d6e70;
+	position:absolute;
+	margin:0 auto;
+	top:30px;
+	margin-left:220px;
 }
 
 #line {
 	background-color:#D1D2D4;
-	width:700px;
+	width:680px;
 	height:2px;
-	margin-top:30px;
-	margin-left:50px;
+	position:absolute;
+	margin-top:80px;
+	margin-left:10px;
+	
 }
 
 .showFact{
-	margin-top:40px;
+	position:absolute;
+	margin-top:110px;
 	padding:0px 30px 0px 30px;
 	display:block;
-	background-color:;
-	color:white;
 	font-family:helvetica;
 	font-weight: 900;
 	color:#ee3d3b;
-	font-size:50px;
+	font-size:45px;
 
 }
 
-.fact-container{
-	
-}
 
 #random {
 	margin:15px auto 0px auto;
@@ -67,6 +70,7 @@
 	color:white;
 	font-size:25px;
 	font-weight:900;
+	margin-bottom:17px;
 }
 
 #random:hover{
@@ -102,8 +106,6 @@
 <script type="text/javascript" src="../js/display-fact.js"></script>
 
 
-<div class="fact-container">
-
 
 	<div class="display-area">
 
@@ -125,5 +127,5 @@
 	</div>
 	</div>
 
-</div>
+
 <div id="random" onclick="generateRand()"><div class="blink"><h1>NEW JOKE</h1>(TAP HERE)</div></div>

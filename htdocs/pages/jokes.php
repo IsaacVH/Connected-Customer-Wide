@@ -24,6 +24,23 @@
 				document.location.href="local-attractions.php";
 			}
 		</script>
+
+		<style>
+		#title{
+				font-family:helvetica;
+				font-weight:900;
+				font-size: 40px !important; 
+				color: #198A3E;
+				text-align: center;
+				width:580px;
+				padding:20px;
+				margin:0 auto;
+				background-color:white;
+				position:relative;
+				top:30px;
+				box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
+			}
+		</style>
 	</head>
 
 	<body>
@@ -34,36 +51,41 @@
 	
 		<div id="home" data-role="page">
 			<?php require("page-pieces/header.php"); ?>
-			<div class="headBox1">
+
+			<div id="fractal">
+
+
 				<h1 id="title">RANDOM JOKES</h1>
-			</div>
 			
 			<?php require("page-pieces/display-joke.php"); ?>
 
-			<div class="related-container">
-				<div class="related-object">
-					<h1 id="relatedTitle">RELATED TIME KILLERS</h1>
+				<div class="related-container">
+					<div class="related-object">
 
-					<a href="#" onClick="goToGames()">
-						<div class="object1">
-							<img src="../assets/related8-o.png" />
-							<h2 id="objectTitle">GAMES</h2>
-						</div>
-					</a>
+						<h1 id="relatedTitle">RELATED TIME KILLERS</h1>
 
-					<a href="#" onClick="goToInteresting()">
-						<div class="object2">
-							<img src="../assets/related6-o.png" />
-							<h2 id="objectTitle">RANDOM FACTS</h2>	
-						</div>
-					</a>
+						<a href="#" onClick="goToGames()">
+							<div class="object1">
+								<img src="../assets/related8-o.png" />
+								<h2 id="objectTitle">GAMES</h2>
+							</div>
+						</a>
 
-					<a href="#" onClick="goToLocalAttractions()">
-						<div class="object3">
-							<img src="../assets/related5-o.png" />
-							<h2 id="objectTitle">LOCAL ATTRACTIONS</h2>
-						</div>
-					</a>
+						<a href="#" onClick="goToInteresting()">
+							<div class="object2">
+								<img src="../assets/related6-o.png" />
+								<h2 id="objectTitle">RANDOM FACTS</h2>	
+							</div>
+						</a>
+
+						<a href="#" onClick="goToLocalAttractions()">
+							<div class="object3">
+								<img src="../assets/related5-o.png" />
+								<h2 id="objectTitle">LOCAL ATTRACTIONS</h2>
+							</div>
+						</a>
+
+					</div>
 				</div>
 			</div>
 		</div>

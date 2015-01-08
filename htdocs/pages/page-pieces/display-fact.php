@@ -6,49 +6,50 @@
 	display:none;
 }
 
-
 .display-area{
-	width:800px;
-	height:700px;
+	width:700px;
+	height:600px;
+	position:relative;
 	border-radius:8px;
 	background-color:white;
-	border:solid 2px #9ad6ec;
-	margin:90px auto 0px auto;}
+	box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
+	margin:90px auto 0px auto;
+}
 
 .did-you-know{
 	text-align:center;
 	display:block;
 	font-family:helvetica;
 	font-weight:900;
-	font-size:70px;
-	margin-top:90px;
+	font-size:30px;
+	color:#6d6e70;
+	position:absolute;
+	margin:0 auto;
+	top:30px;
+	margin-left:220px;
 }
 
 #line {
 	background-color:#D1D2D4;
-	width:700px;
+	width:680px;
 	height:2px;
-	margin-top:30px;
-	margin-left:50px;
-}
-
-.showFact{
-	margin-top:40px;
-	padding:0px 30px 0px 30px;
-	display:block;
-	background-color:;
-	color:white;
-	font-family:helvetica;
-	font-weight: 900;
-	color:#ee3d3b;
-	font-size:50px;
-	text-align:center;
-}
-
-.fact-container{
+	position:absolute;
+	margin-top:80px;
+	margin-left:10px;
 	
 }
 
+.showFact{
+	position:absolute;
+	margin-top:110px;
+	padding:0px 30px 0px 30px;
+	display:block;
+	font-family:helvetica;
+	font-weight: 900;
+	color:#ee3d3b;
+	font-size:45px;
+
+}
 #random {
 	margin:15px auto 0px auto;
 	border-radius: 8px;
@@ -66,6 +67,7 @@
 	color:white;
 	font-size:25px;
 	font-weight:900;
+	margin-bottom:17px;
 }
 
 #random:hover{
@@ -100,7 +102,7 @@
 <script type="text/javascript" src="../js/display-fact.js"></script>
 
 
-<div class="fact-container">
+
 
 
 	<div class="display-area">
@@ -123,5 +125,5 @@
 	</div>
 	</div>
 
-</div>
+
 <div id="random" onclick="generateRand()"><div class="blink"><h1>NEW FACT</h1>(TAP HERE)</div></div>
