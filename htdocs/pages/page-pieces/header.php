@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="../css/header.css">
 <script>
 	function backClicked() {
+		alert("back clicked");
 		history.go(-1);
 	}
 
@@ -39,6 +40,8 @@
 			</ul>
 		</div>
 	</div>
+
+	<a href="#" onclick="backClicked()"><div class="b-button"><i class="fa fa-arrow-left"></i></div></a>
 
 	<div id="clock">
 		<span class="date"></span>
