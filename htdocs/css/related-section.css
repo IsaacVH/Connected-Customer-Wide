@@ -1,15 +1,22 @@
 .related-container{
 	width:100%;
-	height:350px;
+	/*height:350px;*/
+	height: 0;
 	display:block;
 	background-image: url('../assets/fractal-background.png');
 	position:absolute;
-	bottom:0;
-	margin-left:1550px;
-	display:none;
+	bottom:0;	
+	
+	-webkit-transition: height 0.3s ease-out;
+	-moz-transition: height 0.3s ease-out;
+	transition: height 0.3s ease-out;
 
 	/*border-top:dotted 5px;
 	border-color:#e02826;*/
+}
+
+.related-container.show {
+	height: 450px;
 }
 
 .related-object{

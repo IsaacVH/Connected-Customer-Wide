@@ -187,3 +187,29 @@ a {
 	margin: 0 auto;
 	position: relative;
 }
+
+.button-pull-up {
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 50px);
+
+	background-color: #e02826;
+	height: 30px;
+	width: 100px;
+	padding-top: 10px;
+	text-align: center;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.button-pull-up.show {
+	bottom: 450px;
+}
+
+.button-pull-up:hover {
+	cursor: pointer;
+}

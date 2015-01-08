@@ -2,6 +2,16 @@
 <script> $(function() { set_clock(); setInterval(function(){set_clock();}, 1000); }); </script>
 <link rel="stylesheet" href="../css/header.css">
 <script>
+	function show_related() {
+		if($(".related-container").hasClass("show")) {
+			$(".related-container").removeClass("show");
+			$(".button-pull-up").removeClass("show");
+		} else {
+			$(".related-container").addClass("show");
+			$(".button-pull-up").addClass("show");
+		}
+	}
+
 	function backClicked() {
 		history.go(-1);
 	}
@@ -56,3 +66,5 @@
 </div>
 
 <div id="coverall" onclick="menu_button()"></div>
+
+<div class="button-pull-up" onclick="show_related()"><i class="fa fa-arrow-up"></i></div>
