@@ -41,7 +41,11 @@ function backClicked() {
 	} ();
 
 	if(typeof QueryString.lp === 'undefined' || QueryString.lp == null || QueryString.lp == "") {
-		document.location.href = "/htdocs/pages/connected-customer_main-page.php";
+		if(window.location.pathname == "/htdocs/pages/connected-customer_main-page.php") {
+			document.location.href = "/index.php";
+		} else {
+			document.location.href = "/htdocs/pages/connected-customer_main-page.php";
+		}
 	} else {
 		document.location.href = decodeURI(QueryString.lp);
 	}
@@ -49,7 +53,7 @@ function backClicked() {
 }
 
 function enter() {
-	document.location.href="/htdocs/pages/connected-customer_main-page.php";
+	document.location.href="/htdocs/pages/connected-customer_main-page.php?lp=" + window.location.pathname;
 }
 
 // This function controls the clock in the header.
