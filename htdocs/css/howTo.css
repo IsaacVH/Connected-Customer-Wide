@@ -31,15 +31,15 @@
 	display: inline-block;
 	float: right;
 	text-align:center;
-
-	background-color: #9ad6ec;
+	color:#9ad6ec;
+	background-color: white;
 	border-radius: 2px;
 }
 
 .num{
 	font-family:helvetica;
 	font-weight: 600;
-	color:white;
+	
 	position: relative;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
@@ -49,6 +49,7 @@
 
 .nav-number.highlight {
 	background-color: #e02826 !important;
+	color:white !important;
 }
 
 .container-list {
@@ -71,10 +72,10 @@
 
 }
 .container img{
-	width:85%;
-	height:45%;
+	width:65%;
+	height:35%;
 
-	margin-left: 80px;
+	margin-left: 200px;
 	margin-right: auto;
 }
 

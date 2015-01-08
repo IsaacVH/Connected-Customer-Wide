@@ -12,6 +12,24 @@
 				document.location.href=entering; 
 			}
 		</script>
+
+		<style>
+			#title{
+				font-family:helvetica;
+				font-weight:900;
+				font-size: 40px !important; 
+				color: #198A3E;
+				text-align: center;
+				width:1180px;
+				padding:20px;
+				margin:0 auto;
+				background-color:white;
+				position:relative;
+				top:30px;
+				box-shadow: 0px 0px 3px rgba(2, 2, 2, 0.3) , 0px 0px 3px rgba(2, 2, 2, 0.3);
+			}
+
+		</style>
 	</head>
 	<body>
 
@@ -22,9 +40,11 @@
 		<div data-role="page" id="home">
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
-			<div class="headBox2">
-				<h1 id="title">CREATING A PORTFOLIO <br> & BEATING THE MARKET</h1>
-			</div>
+
+			<div id="fractal">
+			
+				<h1 id="title">CREATING A PORTFOLIO & BEATING THE MARKET</h1>
+			
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
@@ -53,7 +73,8 @@
 					</div>
 				</div>
 			</div>
-			<?php require("page-pieces/footer-simple.php"); ?>
+			</div>
+			
 			<!-- END Footer -->
 		</div>
 	</body>
