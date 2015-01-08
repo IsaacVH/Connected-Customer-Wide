@@ -3,7 +3,6 @@
 <link rel="stylesheet" href="../css/header.css">
 <script>
 	function backClicked() {
-		alert("back clicked");
 		history.go(-1);
 	}
 
