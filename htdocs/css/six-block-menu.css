@@ -65,18 +65,18 @@
 
 
 .image-top .li-container{
-	height: 250px;
+
+	height: 300px;
 	width: 400px;
 	background-color:white;
-	margin: 0 auto;
 	padding: 10px;
-	border: 2px solid transparent;
+	box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
 }
 
 .image-top .absolute-container {
 	height: 100%;
 	width: 100%;
-	background-color:skyblue;
+	background-color:;
 	position: relative;
 }
 .image-top .image-container {
@@ -85,6 +85,9 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+	margin:auto 0;
+	margin-right:105px;
+
 }
 
 .image-top .option-image {
@@ -96,18 +99,24 @@
 	position:absolute;
 	top: 0;
 	left: 0;
-
+	font-size: 20px;
+	font-weight: 900;
+	color: #ee3d3b;
 	display: block;
-	text-align: center;
+	width:350px;
 	margin: 18px;
+	margin-top:170px;
+	text-align: center;
+	padding-bottom:5px;
+	border-bottom:dotted grey 2px;
 }
 
 .image-top .option-content {
 	/*border-top: dotted 3px #D1D2D4;*/
 	position: absolute;
-	top: 150px;
+	top: 210px;
 	left: 18px;
-
+	width:370px;
 	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;

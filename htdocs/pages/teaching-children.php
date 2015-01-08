@@ -12,7 +12,22 @@
 				document.location.href=entering; 
 			}
 		</script>
-		
+		<style>
+			#title{
+				font-family:helvetica;
+				font-weight:900;
+				font-size: 40px !important; 
+				color: #198A3E;
+				text-align: center;
+				width:580px;
+				padding:20px;
+				margin:0 auto;
+				background-color:white;
+				position:relative;
+				top:30px;
+				box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
+			}
+		</style>
 		
 	</head>
 	<body>
@@ -25,9 +40,10 @@
 		
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
-			<div class="headBox1">
+			
+			<div id="fractal">
 				<h1 id="title">TEACHING CHILDREN<br>HOW TO SAVE</h1>
-			</div>
+			
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
@@ -53,6 +69,7 @@
 						<h2 id="objectTitle">NEED vs. WANT<br>BUDGET APP</h2>
 					</div>
 				</div>
+			</div>
 			</div>
 			<!-- END Footer -->
 		</div>
