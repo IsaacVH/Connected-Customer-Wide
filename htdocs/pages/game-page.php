@@ -12,7 +12,7 @@
 		</script>
 		<style>
 			iframe {
-				margin-left:-76px;
+				margin-left:-50px;
 				border:none;
 				background-color:;
 				
@@ -45,7 +45,7 @@
 			<div class="game-container">
 				<div id="ttt">
 					<div id="game">
-						<iframe src="../assets/Untitled-6.html" width="910" height="840"></iframe>
+						<iframe src="../assets/pigFly.html" width="737" height="670"></iframe>
 					</div>
 				</div>
 			</div>

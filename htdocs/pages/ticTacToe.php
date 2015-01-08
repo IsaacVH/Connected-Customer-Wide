@@ -13,7 +13,7 @@
 
 		<style>
 			iframe{
-				margin:70px 70px 70px 80px;
+				margin:1px 40px 40px 40px;
 				border:3px solid #ee3d3b;
 				background-color:white;
 				border-radius:6px;
@@ -49,7 +49,7 @@
 			<div class="game-container">
 				<div id="game">
 					<div id="ttt">
-						<iframe src="page-pieces/ttt.html" width="720" height="720"></iframe>
+						<iframe src="page-pieces/ttt.html" width="670" height="670"></iframe>
 					</div>
 				</div>
 			</div>
