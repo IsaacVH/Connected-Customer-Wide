@@ -23,7 +23,16 @@
 				width:880px;
 				margin:0 auto;
 			}
-			
+
+			#whiteFoot{
+				position:absolute;
+				bottom:0;
+				height:100px;
+				width:100%;
+				background-color:white;
+				box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
+			}
+
 		</style>
 	</head>
 	<body>
@@ -55,6 +64,8 @@
 				require("page-pieces/carousel.php"); 
 			?>
 			</div>
+
+			<div id="whiteFoot"></div>
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->
