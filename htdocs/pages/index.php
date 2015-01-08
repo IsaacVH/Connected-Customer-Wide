@@ -28,10 +28,6 @@
 			#img1 img{
 				width:100%;
 			}
-
-			#img2 img{
-				width:100%;
-			}
 		</style>
 	</head>
 	<body>
@@ -47,9 +43,8 @@
 
 			<!-- BEGIN Main Content -->
 			<a href="#" onclick="enter()">
-				<div class="body">
-					<div id="img1"><img src="../assets/splash1-o.png" /></div>
-					<div id="img2"><img src="../assets/splash1.2-o.png" /></div>
+				<div class="home">
+					<div id="img1"><img src="../assets/wide-splash.png" /></div>
 				</div>
 			</a>
 			<!-- END Main Content -->
