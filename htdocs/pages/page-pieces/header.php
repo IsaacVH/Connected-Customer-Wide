@@ -2,6 +2,12 @@
 <script> $(function() { set_clock(); setInterval(function(){set_clock();}, 1000); }); </script>
 <link rel="stylesheet" href="../css/header.css">
 <script>
+	$(function() {
+		if($(".related-container").length > 0){
+			$(".button-pull-up").css("display", "block");
+		}
+	});
+
 	function show_related() {
 		if($(".related-container").hasClass("show")) {
 			$(".related-container").removeClass("show");

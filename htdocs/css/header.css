@@ -189,9 +189,10 @@ a {
 }
 
 .button-pull-up {
+	display: none;
 	position: absolute;
 	bottom: 0;
-	left: calc(50% - 50px);
+	right: 200px;
 
 	background-color: #e02826;
 	height: 30px;
@@ -208,6 +209,12 @@ a {
 
 .button-pull-up.show {
 	bottom: 450px;
+}
+
+.button-pull-up.show i {
+	-webkit-transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+	transform: rotateX(180deg);
 }
 
 .button-pull-up:hover {
