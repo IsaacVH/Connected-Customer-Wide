@@ -47,7 +47,7 @@
 				margin:0 auto;
 				font-size:30px;
 				position: relative;
-				top: calc(50% - 511px);
+				top:50px;
 			}
 
 			.preview-on .email-close{
