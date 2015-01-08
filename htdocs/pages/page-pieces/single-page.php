@@ -18,22 +18,13 @@
 	*/
 </script>
 <div class="carousel">
-	<div class="navigation-bar">
-		<!-- 
-		<div class="nav-container">
-			<div class="nav-circle" name="page2"></div>
-			<div class="nav-circle highlight" name="page1"></div>
-		</div> 
-		-->
-	</div>
+
 	<div class="container-list">
-		<div class="container" name="page1"><?php 
+		<div class="container" name="page1">
+		<?php 
 			$carouselpage = "../json/killing-time1.json";
-			include("six-block-menu.php"); ?></div>
-	</div>
-		<!-- 
-		<div id="swipe-hand"> 
-			<img src="../assets/Swipe-Hand.png"></img> 
-		</div> 
-		-->
+			include("six-block-menu.php"); 
+		?>
+		</div>
+	
 </div>

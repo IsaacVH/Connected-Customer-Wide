@@ -1,13 +1,13 @@
 /* 	This is a class for the children of an 'li'
 	element in the six-block-menu. */
 .li-container {
-	display: inline-block;
+	/*display: inline-block;
 	padding: 5px;
 	background-color: white;
 	border: solid 2px transparent;
 	border-radius-bottom-left: 6px;
 	border-radius-bottom-left: 6px;
-	box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
+	box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);*/
 }
 
 /* 	If an Element has a 'left' class, that means
@@ -32,8 +32,6 @@
 	width: 80%;
 	height:auto;
 	margin:0 10%;
-	
-
 	position: relative;
 }
 
@@ -52,7 +50,7 @@
 /* This class is for <li> elements that will have
    their 'option-image' displayed on the top. */
 .image-top {
-	margin-bottom: 50px !important;
+	margin-bottom: 90px !important;
 }
 
 .image-top img {
@@ -60,8 +58,28 @@
 }
 
 .image-top .well {
-	padding-left: 10px;
+	padding-left: 50px;
 	padding-right: 10px;
+}
+
+
+.image-top .li-container{
+	height:100%;
+	width:100%;
+	background-color:yellow;
+	margin:0 20px;
+}
+
+.image-top .absolute-container {
+	position:relative;
+	height: 100%;
+	width: 100%;
+	background-color:green;
+}
+.image-top .image-container {
+	position:absolute;
+	height: 100%;
+	width: 200px;
 }
 
 .image-top .option-text-container {
@@ -79,7 +97,9 @@
 }
 
 .image-top .option-text-wrapper .option-title {
+	position:absolute;
 	text-align: center;
+	top:0;
 	margin-bottom: 2px;
 }
 
@@ -106,6 +126,13 @@
 	height: 220px;
 	width: 400px;
 
+	display: inline-block;
+	padding: 5px;
+	background-color: white;
+	border: solid 2px transparent;
+	border-radius-bottom-left: 6px;
+	border-radius-bottom-left: 6px;
+	box-shadow: 0px 0px 7px rgba(9, 9, 9, 0.1) , 0px 0px 7px rgba(9, 9, 9, 0.1);
 }
 
 .image-left .absolute-container {
@@ -149,7 +176,7 @@
 
 /* These define the font and box size of the
    text and images in the menu items. */
-.option-title {
+.image-left .option-title {
 	position:absolute;
 	top:0;
 	margin-top:35px;
@@ -162,7 +189,7 @@
 	width:260px;
 }
 
-.option-content {
+.image-left .option-content {
 
 	position:absolute;
 	top:120px;
