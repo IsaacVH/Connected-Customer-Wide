@@ -48,7 +48,7 @@
 
 			#local-attractions div{
 				float:left;
-				width:33%;
+				width:28%;
 				background-color:;
 			}
 
@@ -77,6 +77,21 @@
 				margin-top:100px;
 				border-bottom:dotted 3px #D1D2D4;
 			}
+
+			#title{
+				font-family:helvetica;
+				font-weight:900;
+				font-size: 40px !important; 
+				color: #198A3E;
+				text-align: center;
+				width:700px;
+				padding:20px;
+				margin:0 auto;
+				background-color:white;
+				position:relative;
+				top:30px;
+				box-shadow: 0px 0px 3px rgba(2, 2, 2, 0.1) , 0px 0px 3px rgba(2, 2, 2, 0.1);
+			}
 		</style>
 	</head>
 
@@ -88,9 +103,9 @@
 
 		<div id="home" data-role="page">
 			<?php require("page-pieces/header.php"); ?>
-			<div class="headBox1">
-				<h1 id="title">LOCAL ATTRACTIONS</h1>
-			</div>
+			
+			<h1 id="title">LOCAL ATTRACTIONS</h1>
+			
 
 			<div id="local-attractions">
 				<div id="attraction1">
