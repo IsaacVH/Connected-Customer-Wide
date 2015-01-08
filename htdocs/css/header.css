@@ -166,3 +166,10 @@ a {
 	margin: 6px 0;
 }
 
+#home {
+	overflow: hidden;
+	width: 100%;
+	height: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
