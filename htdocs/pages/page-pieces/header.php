@@ -1,13 +1,6 @@
 <script src="../js/header.js" type="text/javascript"></script>
-<script> $(function() { set_clock(); setInterval(function(){set_clock();}, 1000); }); </script>
+<script> $(function() { set_clock(); setInterval(function(){set_clock();}, 1000); setRelatedShow(); setLinks(); }); </script>
 <link rel="stylesheet" href="../css/header.css">
-<script>
-	$(function() {
-		if($(".related-container").length > 0){
-			$(".button-pull-up").css("display", "block");
-		}
-	});
-</script>
 
 <div id="header">
 	

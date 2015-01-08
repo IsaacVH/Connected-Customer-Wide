@@ -2,40 +2,6 @@
 	$json = file_get_contents($carouselpage);
 	$menuitems = json_decode($json, true);
 ?>
-<script>
-	$(function(){
-		$(".well").click(function(){
-			// document.location.href=$(this).attr('href');
-		});
-	});
-
-	function sendClick(s_element) {
-		// alert("Button Clicked");
-		// ga('send', 'event', 'button', 'click', 'shopping', 1);
-		ga('send', {
-		  'hitType': 'event',          // Required.
-		  'eventCategory': 'button',   // Required.
-		  'eventAction': 'click',      // Required.
-		  'eventLabel': 'nav buttons',
-		  'eventValue': 4,
-		  'hitCallback' : function () {
-		      // alert("Event received");
-		   }
-		});
-		
-		var buttontitle = s_element.getElementsByClassName('option-title')[0].textContent;
-		var URLCompose = "user="+Math.floor(Math.random()*100000)+"&button="+buttontitle+"&page="+document.URL;
-		$.ajax({
-			type: "GET",
-			url: "page-pieces/writeRSS.php",
-			data: URLCompose,
-			success: function(data){ 
-				document.location.href=$(s_element).attr('href');
-				// alert(data); 
-			}
-		});
-	}
-</script>
 <link href="../css/six-block-menu.css" rel="stylesheet">
 <ul class="content-list">
 	<?php
