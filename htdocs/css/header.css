@@ -166,6 +166,19 @@ a {
 	margin: 6px 0;
 }
 
+.b-button {
+	position: absolute;
+	left: 190px;
+	top: 20px;
+
+	width: 50px;
+	height: 50px;
+
+	font-size: 50px;
+	color: #e02826;
+	z-index: 1;
+}
+
 #home {
 	overflow: hidden;
 	width: 100%;
