@@ -168,7 +168,6 @@
 
 			<?php require("page-pieces/attraction-list.php"); ?>
 
-			<?php require("page-pieces/footer-simple.php"); ?>
 		</div>
 	</body>
 </html>

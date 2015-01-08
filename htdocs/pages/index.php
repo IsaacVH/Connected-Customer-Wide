@@ -42,7 +42,7 @@
 
 		<div data-role="page" id="home">
 			<!-- BEGIN Header -->
-			<?php require("page-pieces/header.php"); ?>
+			<?php //require("page-pieces/header.php"); ?>
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->

@@ -66,7 +66,6 @@
 					</a>
 				</div>
 			</div>
-			<?php require("page-pieces/footer-simple.php"); ?>
 		</div>
 	</body>
 </html>
