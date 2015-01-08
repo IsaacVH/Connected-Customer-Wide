@@ -68,12 +68,20 @@ function enlarge(loader) {
 		height: '400px'
 	}, time);
 
+	$(listItem).find(".list-image").addClass("large");
+	/*
+	$(listItem).find(".list-image").css("margin-left", "5%");
 	$(listItem).find(".list-image").animate({
 		width: '283px',
 		top: '105px',
-		left: '135px'
+		left: '80px'
 	}, time);
+	*/
 
+	$(listItem).find(".paragraph").addClass("large");
+	$(listItem).find(".paragraph").addClass("columns");
+
+	/*
 	$(listItem).find(".paragraph").css('position', 'relative');
 	$(listItem).find(".paragraph").css('right', '0px');
 	$(listItem).find(".paragraph").animate({
@@ -83,6 +91,7 @@ function enlarge(loader) {
 		height: '205px'
 	}, time);
 	$(listItem).find(".paragraph").toggleClass('columns');
+	*/
 
 	$(listItem).find(".list-close").show();
 	$(listItem).find(".list-close").css('right', '25px');
@@ -117,15 +126,23 @@ function shrink(loader) {
 		height: '200px'
 	}, time);
 
+	/*
 	$(listItem).find(".list-image").css("position", "absolute");
 	$(listItem).find(".list-image").css("left", "auto");
 	$(listItem).find(".list-image").css("right", "600px");
+	*/
+	/*
 	$(listItem).find(".list-image").animate({
-		width: '283px',
+		// width: '283px',
 		top: '0px',
 		right: '0px'
 	}, time);
+	*/
+	$(listItem).find(".list-image").removeClass("large");
 
+	$(listItem).find(".paragraph").removeClass("large");
+	$(listItem).find(".paragraph").removeClass("columns");
+	/*
 	$(listItem).find(".paragraph").animate({
 		position: 'relative',
 		right: '0px',
@@ -133,6 +150,7 @@ function shrink(loader) {
 		height: '80px'
 	}, time);
 	$(listItem).find(".paragraph").toggleClass('columns');
+	*/
 
 	$(listItem).find(".list-close").hide();
 	$(listItem).find(".list-close").animate({
