@@ -59,16 +59,21 @@
 	height:100%;
 
 	-webkit-transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -ms-transform: scaleX(-1);
-    transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .attraction {
 	width: 100%;
 	padding: ;
 	position: relative;
+	height: 200px;
+}
+
+.attraction.large {
+	height: 400px !important;
 }
 
 .attraction > div {
@@ -110,13 +115,12 @@
 	margin-left: 5%;
 	display: inline-block;
 
-	-webkit-transition: all 0.3s ease-out;
+	/*-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;*/
 }
 
 .attraction > .list-image.large {
-	/*clear: both;*/
 	right: calc(100% - 441px);
 	top: 105px;
 }
@@ -159,9 +163,9 @@
 	position: relative;
 	top: 4px;
 
-	-webkit-transition: all 0.3s ease-out;
+	/*-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;*/
 }
 
 .paragraph.large {

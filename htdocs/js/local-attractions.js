@@ -55,7 +55,7 @@ function enlarge(loader) {
 	document.getElementsByClassName('list-image')[0].onclick = "";
 
 	var listItem = loader.parentNode;
-	loader.style.height = "200px";
+	// loader.style.height = "200px";
 
 	if(openListItem != null){
 		shrink(openListItem);
@@ -64,9 +64,10 @@ function enlarge(loader) {
 
 	var time = globalTime;
 
-	$(listItem).animate({
+	/*$(listItem).animate({
 		height: '400px'
-	}, time);
+	}, time);*/
+	$(listItem).addClass("large");
 
 	$(listItem).find(".list-image").addClass("large");
 	/*
@@ -96,10 +97,6 @@ function enlarge(loader) {
 	$(listItem).find(".list-close").show();
 	$(listItem).find(".list-close").css('right', '25px');
 	$(listItem).find(".list-close").css('top', '30px');
-	$(listItem).find(".list-close").animate({
-		right: '25px',
-		top: '30px'
-	}, time);
 
 	$(listItem).find(".directions-button").show();
 
@@ -122,9 +119,11 @@ function shrink(loader) {
 	var time = globalTime;
 	openListItem = null;
 
-	$(listItem).animate({
+	/*$(listItem).animate({
 		height: '200px'
-	}, time);
+	}, time);*/
+
+	$(listItem).removeClass("large");
 
 	/*
 	$(listItem).find(".list-image").css("position", "absolute");
@@ -151,13 +150,6 @@ function shrink(loader) {
 	}, time);
 	$(listItem).find(".paragraph").toggleClass('columns');
 	*/
-
-	$(listItem).find(".list-close").hide();
-	$(listItem).find(".list-close").animate({
-		position: 'absolute',
-		right: '0px',
-		top: '0px'
-	}, time);
 
 	$(listItem).find(".directions-button").hide();
 
