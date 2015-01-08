@@ -40,7 +40,7 @@
 
 	float: left;
 	width: 33.3%;
-	height: 30%;
+	height: 50%;
 	min-height: 300px;
 
 	text-align: center;
@@ -50,7 +50,8 @@
 /* This class is for <li> elements that will have
    their 'option-image' displayed on the top. */
 .image-top {
-	margin-bottom: 90px !important;
+	/*margin-bottom: 90px !important;*/
+	width: 25% !important;
 }
 
 .image-top img {
@@ -64,26 +65,26 @@
 
 
 .image-top .li-container{
-	height:100%;
-	width:100%;
-	background-color:yellow;
-	margin:0 20px;
+	height: 250px;
+	width: 400px;
+	background-color:white;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid transparent;
 }
 
 .image-top .absolute-container {
-	position:relative;
 	height: 100%;
 	width: 100%;
-	background-color:green;
+	background-color:skyblue;
+	position: relative;
 }
 .image-top .image-container {
-	position:absolute;
 	height: 100%;
 	width: 200px;
-}
-
-.image-top .option-text-container {
-	width: 250px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .image-top .option-image {
@@ -91,22 +92,21 @@
 	height: 160px;
 }
 
-.image-top .option-text-wrapper {
-	display: block;
-	width: 240px;
-}
-
-.image-top .option-text-wrapper .option-title {
+.image-top .option-title {
 	position:absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
 	text-align: center;
-	top:0;
-	margin-bottom: 2px;
+	margin: 18px;
 }
 
-.image-top .option-text-wrapper .option-content {
-	border-top: dotted 3px #D1D2D4;
-	padding: 7px 5px;
-	margin-top: 0px;
+.image-top .option-content {
+	/*border-top: dotted 3px #D1D2D4;*/
+	position: absolute;
+	top: 150px;
+	left: 18px;
 
 	text-align: justify;
 	-webkit-hyphens: auto;
