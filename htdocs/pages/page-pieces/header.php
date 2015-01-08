@@ -40,6 +40,8 @@
 		</div>
 	</div>
 
+	<a href="#" onclick="backClicked()"><div class="b-button"><i class="fa fa-arrow-left"></i></div></a>
+
 	<div id="clock">
 		<span class="date"></span>
 		<span class="time">

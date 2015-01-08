@@ -51,7 +51,6 @@
 					</div>
 				</div>
 			</div>
-			<?php require("page-pieces/footer-simple.php"); ?>
 			<!-- END Footer -->
 		</div>
 	</body>
