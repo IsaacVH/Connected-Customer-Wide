@@ -39,17 +39,25 @@
 			}
 
 			#local-attractions{
-				margin:30px auto 0px auto;
-				width:1080px;
-				height:50px;
+				margin: 30px auto 0px auto;
+				width: 300px;
+				height: 360px;
 				background-color:;
-				text-align:center;
+				text-align: center;
+				position: absolute;
+				left: 30px;
+				top: 228px;
 			}
 
 			#local-attractions div{
-				float:left;
-				width:28%;
+				float: left;
+				width: 100%;
 				background-color:;
+			}
+
+			#local-attractions > div span {
+				float: right;
+				margin-right: 20px;
 			}
 
 			#attraction1{ background-color:#9ad6ec; }
@@ -74,7 +82,7 @@
 				background-color:;
 				width:100%;
 				height:;
-				margin-top:100px;
+				margin-top:50px;
 				border-bottom:dotted 3px #D1D2D4;
 			}
 

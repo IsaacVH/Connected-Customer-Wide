@@ -1,3 +1,21 @@
+function show_related() {
+	if($(".related-container").hasClass("show")) {
+		$(".related-container").removeClass("show");
+		$(".button-pull-up").removeClass("show");
+	} else {
+		$(".related-container").addClass("show");
+		$(".button-pull-up").addClass("show");
+	}
+}
+
+function backClicked() {
+	history.go(-1);
+}
+
+function enter() {
+	document.location.href="/htdocs/pages/connected-customer_main-page.php";
+}
+
 // This function controls the clock in the header.
 function set_clock() {
 	/*	
