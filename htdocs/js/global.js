@@ -34,7 +34,7 @@ function sendClick(s_element) {
 	var URLCompose = "user="+Math.floor(Math.random()*100000)+"&button="+buttontitle+"&page="+document.URL;
 	$.ajax({
 		type: "GET",
-		url: "page-pieces/writeRSS.php",
+		url: "/htdocs/pages/page-pieces/writeRSS.php",
 		data: URLCompose,
 		success: function(data){
 			document.location.href=$(s_element).attr('href') + "?lp=" + encodeURI(window.location.pathname);
