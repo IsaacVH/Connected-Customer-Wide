@@ -24,7 +24,7 @@
 				<a href="/htdocs/pages/game-page.php"><li>GAMES&nbsp;</li></a>
 				<a href="/htdocs/pages/ticTacToe.php"><li>TIC TAC TOE&nbsp;</li></a>
 				<a href="/htdocs/pages/local-attractions.php"><li>LOCAL ATTRACTIONS&nbsp;</li></a>
-				<a href="/htdocs/pages/view-image.php?image=/htdocs/assets/interact2.jpg"><li>FIDELITY&nbsp;</li></a>
+				<a href="/htdocs/pages/view-image.php?image=/htdocs/assets/interact2_large.jpg"><li>FIDELITY&nbsp;</li></a>
 			</ul>
 		</div>
 	</div>
