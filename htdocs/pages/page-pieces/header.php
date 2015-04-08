@@ -14,16 +14,17 @@
 	<div class="menu">
 		<div class="nav-dropdown">
 			<ul>
-				<a href="/htdocs/pages/send-mail.php"><li>EMAIL&nbsp</li></a>
-				<a href="/htdocs/pages/banking-101.php"><li>BANKING 101&nbsp</li></a>
-				<a href="/htdocs/pages/creating-portfolio.php"><li>CREATING A PORTFOLIO&nbsp</li></a>
-				<a href="/htdocs/pages/teaching-children.php"><li>TEACHING CHILDREN SAVINGS&nbsp</li></a>
-				<a href="/htdocs/pages/529-savings.php"><li>529 SAVINGS PLAN&nbsp</li></a>
-				<a href="/htdocs/pages/killing-time.php"><li>KILLING TIME&nbsp</li></a>
-				<a href="/htdocs/pages/interesting-facts.php"><li>INTERESTING FACTS&nbsp</li></a>
-				<a href="/htdocs/pages/game-page.php"><li>GAMES&nbsp</li></a>
-				<a href="/htdocs/pages/ticTacToe.php"><li>TIC TAC TOE&nbsp</li></a>
-				<a href="/htdocs/pages/local-attractions.php"><li>LOCAL ATTRACTIONS&nbsp</li></a>
+				<a href="/htdocs/pages/send-mail.php"><li>EMAIL&nbsp;</li></a>
+				<a href="/htdocs/pages/banking-101.php"><li>BANKING 101&nbsp;</li></a>
+				<a href="/htdocs/pages/creating-portfolio.php"><li>CREATING A PORTFOLIO&nbsp;</li></a>
+				<a href="/htdocs/pages/teaching-children.php"><li>TEACHING CHILDREN SAVINGS&nbsp;</li></a>
+				<a href="/htdocs/pages/529-savings.php"><li>529 SAVINGS PLAN&nbsp;</li></a>
+				<a href="/htdocs/pages/killing-time.php"><li>KILLING TIME&nbsp;</li></a>
+				<a href="/htdocs/pages/interesting-facts.php"><li>INTERESTING FACTS&nbsp;</li></a>
+				<a href="/htdocs/pages/game-page.php"><li>GAMES&nbsp;</li></a>
+				<a href="/htdocs/pages/ticTacToe.php"><li>TIC TAC TOE&nbsp;</li></a>
+				<a href="/htdocs/pages/local-attractions.php"><li>LOCAL ATTRACTIONS&nbsp;</li></a>
+				<a href="/htdocs/pages/view-image.php?image=/htdocs/assets/interact2.jpg"><li>FIDELITY&nbsp;</li></a>
 			</ul>
 		</div>
 	</div>
