@@ -56,6 +56,10 @@ function sendMail(attachment) {
 								"	.email-statement {font-size:18px;font-family:calibri;color:grey;padding:10px 40px;}"+
 								"</style>"+
 								"<div class='email-statement'>"+
+									$(".email-statement").html() + 
+								"</div>"
+
+				    			/*
 								"<p><strong>Key Deliverables for a 45 day pilot on 4 touchscreens</strong></p>"+
 								"<p>We will invest $50k in programming for modular <strong>content</strong> for a 45 day pilot. We will deliver an in-branch interactive touchscreen <strong>experience</strong> on a cloud-based <strong>CMS system</strong> to:</p>"+
 								"<ul>"+
@@ -74,7 +78,8 @@ function sendMail(attachment) {
 								"<li>Access to data collected</li>"+
 								"<li>Access to experiences shared</li>"+
 								"</ul>"+
-								"</div>",
+								"</div>"
+								*/,
 				    	//"text": "Your requested document is attached. \nThank you for using the Connected Customer service.",
 				    	"subject": "Connected Customer - PDF Document",
 				    	"from_email": "sheloo.koul@standardregister.com",
