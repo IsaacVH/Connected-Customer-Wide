@@ -14,7 +14,7 @@
 <li>Initiate and foster ongoing interactions with customers through cross-channel and mobile integration.</li>
 </ul>
 <p>The contents developed for the prototype will be supported with internet <strong>connectivity</strong> along with a content management <strong>platform</strong> that will enable the interactions to be meaningful and relevant.</p>
-<p><strong>Ask: </strong><em>What do we want in return from Webster?</em></p>
+<p><strong>Ask: </strong><em>What do we want in return from Fidelity?</em></p>
 <ul style="list-style-type:circle">
 <li>Retail space</li>
 <li>A named reference</li>
